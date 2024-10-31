@@ -1,4 +1,4 @@
-|**1st Semester**
+**1st Semester**
 
 |Date|Purpose|Title|Lesson|
 |-------------|-------------|-----|---|
