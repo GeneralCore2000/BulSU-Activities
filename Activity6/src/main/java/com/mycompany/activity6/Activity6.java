@@ -19,8 +19,10 @@ public class Activity6 {
         } else if (divisor > dividend) {
             System.out.println("    Unable to Process");
         } else {
-            for (int i = divisor; i <= dividend; i += divisor) {
+            int i = divisor;
+            while (i <= dividend) {
                 quotient++;
+                i += divisor;
             }
             System.out.println("Quotient\t:\t" + quotient);
             if (quotient * divisor < dividend) {
