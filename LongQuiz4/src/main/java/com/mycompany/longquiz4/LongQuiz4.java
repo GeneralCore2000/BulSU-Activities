@@ -20,8 +20,9 @@ public class LongQuiz4 {
                 return "Tuesday";
             case 7:
                 return "Tuesday";
+            default:
+                return "Error";
         }
-        return "Error";
     }
 
     public static void main(String[] args) {
